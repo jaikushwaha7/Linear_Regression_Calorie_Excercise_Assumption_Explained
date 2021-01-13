@@ -9,5 +9,5 @@ Data wrt to Exercise and Calories burnt and Performed LR for predicting Calories
 
 ![alt text](https://github.com/jaikushwaha7/Linear_Regression_Calorie_Excercise_Assumption_Explained/blob/main/Regression%20Analysis%201.png)
 
-**Calories vs Duration analysis in Tableau
+**Calories vs Duration analysis in Tableau**
 ![alt text](https://github.com/jaikushwaha7/Linear_Regression_Calorie_Excercise_Assumption_Explained/blob/main/Calories%20vs%20Duration.png)
