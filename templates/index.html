@@ -1,0 +1,48 @@
+<html>
+<body>
+    <h3>Calories Burnt Prediction Form</h3>
+
+<div>
+  <form action="/predict" method="POST">
+    <label for="Age">Age</label>
+    <input type="text" id="Age" name="Age">
+    <br>
+    <label for="Height">Height</label>
+    <input type="text" id="Height" name="Height">
+    <br>
+    <label for="Weight">Weight</label>
+    <input type="text" id="Weight" name="Weight">
+    <br>
+    <label for="Duration">Duration</label>
+    <input type="text" id="Duration" name="Duration">
+    <br>
+    <label for="Heart_Rate">Heart_Rate</label>
+    <input type="text" id="Heart_Rate" name="Heart_Rate">
+    <br>
+    <label for="Body_Temp">Body_Temp</label>
+    <input type="text" id="Body_Temp" name="Body_Temp">
+    <br>
+    <label for="Gender">Gender</label>
+    <select id="Gender" name="Gender">
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+    </select>
+    <br>
+    <br><br><button id="sub" type="submit">Calculate the Calories Burnt</button>
+            <br>
+
+  </form>
+         <br><br><h3>{{ prediction_text }}<h3>
+</div>
+ <style>
+        body {
+            background-color: purple;
+            text-align: center;
+            padding: 0px;
+        }
+        
+ 
+    </style>
+</body>
+
+</html>
